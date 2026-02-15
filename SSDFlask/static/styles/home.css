@@ -1,0 +1,28 @@
+.home_div {
+    display: flex;
+    margin: 96px;
+    gap: 64px;
+    align-items: center;
+}
+
+@media (max-width: 1650px) {
+    .home_div {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 850px) {
+    .home_text_div h1 {
+        text-align: center;
+    }
+
+}
+.home_image {
+    border-radius: 16px;
+}
+
+@media (max-width: 1000px) {
+    .home_image {
+        width: 75vw;
+    }
+}

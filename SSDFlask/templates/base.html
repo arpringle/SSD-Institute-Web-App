@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/styles/styles.css"/>
+    <link rel="stylesheet" href="/static/styles/{{ stylesheet }}"/>
+</head>
+<body>
+    <header>
+        <div class="header_div">
+            <div class="header_left_div">
+                <!-- TODO: JavaScript code for menu revealer-->
+                <button class="menu_button">
+                    <img class="menu_button_image" src="static/assets/menu.svg"/>
+                </button>
+            </div>
+            <div class="header_right_div">
+                <div class="header_buttons_div">
+                    <!--
+                        TODO: The ".selected" CSS class will make the navigation button colored to
+                        indicate what page you are on, but we currently don't have a mechanism to
+                        conditionally apply thaty style.
+                    -->
+                    <a class="header_tab_link selected" href="collaborative-veto">
+                        Collaborative Veto
+                    </a>
+                    <a class="header_tab_link" href="supreme-court-check">
+                        Supreme Court Check
+                    </a>
+                    <a class="header_tab_link" href="multiple-choice-voting">
+                        Multiple Choice Voting
+                    </a>
+                </div>
+                <div class="header_site_title_div">
+                    <h1>Scientific Self-Determination</h1>
+                </div>
+                <div class="header_site_short_title_div">
+                    <h1><i>SSD</i></h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--
+            TODO: If we start rendering pages on the backend based on user input, this line has to
+            change to prevent injection of HTML. In that case it can't use `| safe`
+        -->
+        {{ page_content | safe }}
+    </main>
+    <footer>
+        <div class="footer_div">
+            <div class="footer_desktop">
+                <div class="footer_desktop_main_div">
+                    <div class="footer_left_div">
+                        <!--TODO: Set actual link destinations-->
+                        <a class="footer_social_icon_link" href="https://x.com">
+                            <img src="static/assets/twitter.svg"/>
+                        </a>
+                        <a class="footer_social_icon_link" href="https://facebook.com">
+                            <img src="static/assets/facebook.svg"/>
+                        </a>
+                        <a class="footer_social_icon_link" href="https://linkedin.com">
+                            <img src="static/assets/linkedin.svg"/>
+                        </a>
+                    </div>
+                    <div class="footer_right_div">
+                        <a 
+                            class="footer_email_link"
+                            href="mailto:contact@ssdinstitute.net"
+                        >
+                            <img src="static/assets/envelope.svg"/>
+                            contact@scientificselfdetermination.com
+                        </a>
+                    </div>
+                </div>
+                <p>&copy; 2025 Scientific Self Determination. All rights reserved.</p>
+            </div>
+            <div class="footer_mobile">
+                <p><b>Follow Us:</b></p>
+                <div class="mobile_footer_icons_div">
+                    <!--TODO: Set actual link destinations-->
+                    <a class="footer_social_icon_link" href="https://x.com">
+                        <img src="static/assets/twitter.svg"/>
+                    </a>
+                    <a class="footer_social_icon_link" href="https://facebook.com">
+                        <img src="static/assets/facebook.svg"/>
+                    </a>
+                    <a class="footer_social_icon_link" href="https://linkedin.com">
+                        <img src="static/assets/linkedin.svg"/>
+                    </a>
+                </div>
+                <p>
+                    Contact us via email:
+                    <a href="mailto:contact@ssdinstitute.net">contact@ssdinstitute.net</a>
+                </p>
+                <p>&copy; 2025 Scientific Self Determination. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
