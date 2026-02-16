@@ -23,6 +23,16 @@ The following links are a table of contents to our founding documentation
 * [Meeting Minutes](docs/Meeting_Minutes/)
 * [RACI Matrix](docs/Founding/RACIMatrix.md)
 
+## Sprints
+ * [Sprint 1](docs/sprints/SprintOne/SprintLogOne.md)
+ * [Sprint 2](docs/sprints/SprintTwo/)
+ * [Sprint 3](docs/sprints/SprintThree/)
+ * [Sprint 4](docs/sprints/SprintFour/)
+ * [Sprint 5](docs/sprints/SprintFive/)
+ * [Sprint 6](docs/sprints/SprintSix/)
+ * [Sprint 7](docs/sprints/SprintSeven/)
+ * [Sprint 8](docs/sprints/SprintEight/)
+
 ## Contributions 
 1. Fork repository 
 2. Contribute in the fork with your changes 
@@ -38,24 +48,6 @@ The following links are a table of contents to our founding documentation
 * [data Sample](SSDflask/data/sample/)
 * [Accessibility](docs/Accessibility/)  
 * [Style sheet](SSDFlask/static/style.css)
- 
-## Sprints
- * [Sprint 1](docs/sprints/SprintOne/SprintLogOne.md)
- * [Sprint 1 Video](docs/sprints/SprintOne/)
- * [Sprint 2](docs/sprints/SprintTwo/)
- * [Sprint 2 Video](docs/sprints/SprintTwo/)
- * [Sprint 3](docs/sprints/SprintThree/)
- * [Sprint 3 Video](docs/sprints/SprintThree/)
- * [Sprint 4](docs/sprints/SprintFour/)
- * [Sprint 4 Video](docs/sprints/SprintFour/)
- * [Sprint 5](docs/sprints/SprintFive/)
- * [Sprint 5 Video](docs/sprints/SprintFive/)
- * [Sprint 6](docs/sprints/SprintSix/)
- * [Sprint 6 Video](docs/sprints/SprintSix/)
- * [Sprint 7](docs/sprints/SprintSeven/)
- * [Sprint 7 Video](docs/sprints/SprintSeven/)
- * [Sprint 8](docs/sprints/SprintEight/)
- * [Sprint 8 Video](docs/sprints/SprintEight/)
 
 [Getting Started Devs](docs/Founding/GettingStarted.md)
 
